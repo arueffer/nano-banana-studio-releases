@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "nano-banana": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/nano-banana-mcp.sh"
+    }
+  }
+}
