@@ -10,7 +10,7 @@
       "name": "nano-banana",
       "source": "./plugins/nano-banana",
       "description": "Bilder erzeugen und überarbeiten mit Nano Banana Studio (Googles Gemini-Bildmodelle). Bringt die MCP-Anbindung an die installierte Mac-App mit und das Wissen, wie man sie sparsam und mit konsistenten Bildserien nutzt.",
-      "version": "1.9.2",
+      "version": "1.10.0",
       "category": "productivity",
       "homepage": "https://github.com/arueffer/nano-banana-studio-releases"
     }
