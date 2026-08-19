@@ -59,6 +59,33 @@ Damit Figuren, Stil oder Produkte über mehrere Bilder gleich aussehen:
 Erwarte trotzdem leichte Abweichungen bei Details — darauf hinweisen, statt sie zu
 übergehen.
 
+## Videos — teuer, deshalb mit Ansage
+
+Seit 1.11.0 gibt es `generate_video` (Google Veo 3.1): 4 bis 8 Sekunden, mit Ton,
+in 16:9 oder 9:16. Ein Video kostet ein Vielfaches eines Bildes:
+
+| | 720p | 1080p | 4K |
+|---|---|---|---|
+| Veo 3.1 Lite (Standard) | 0,05 $/s | 0,08 $/s | kann es nicht |
+| Veo 3.1 Fast | 0,10 $/s | 0,12 $/s | 0,30 $/s |
+| Veo 3.1 | 0,40 $/s | 0,40 $/s | 0,60 $/s |
+
+Vier Sekunden Lite in 720p sind 0,20 $, acht Sekunden im großen Modell in 4K sind
+4,80 $ — das Vierundzwanzigfache eines Bildes.
+
+- **Immer vorher den Betrag nennen und zustimmen lassen.** Nicht einfach erzeugen,
+  auch nicht „zum Ausprobieren".
+- Liegt der Betrag über der in der App gesetzten Grenze, lehnt der Server ab. Dann
+  den Betrag nennen und erst nach ausdrücklichem Ja `confirmed: true` setzen.
+- **Aus einem fertigen Bild ein Video machen** (`startImage` mit der `/media/`-URL)
+  ist meist besser, als das Motiv neu beschreiben zu lassen: Das Bild ist schon
+  abgestimmt, und Bildentwürfe kosten Cent statt Euro.
+- Der Prompt beschreibt **Bewegung**, nicht das Motiv: Kamerafahrt, Tempo, was sich
+  im Bild verändert.
+- **Ich sehe das Video nicht.** Anders als bei Bildern kommt nur der Pfad zurück.
+  Also sagen, wo es liegt, und um Sichtung bitten — nicht so tun, als hätte ich es
+  beurteilt.
+
 ## Ergebnisse
 
 Du bekommst die Bilder zurück und siehst sie. **Sieh sie dir an und sag ehrlich, was
