@@ -82,6 +82,14 @@ Vier Sekunden Lite in 720p sind 0,20 $, acht Sekunden im großen Modell in 4K si
   abgestimmt, und Bildentwürfe kosten Cent statt Euro.
 - Der Prompt beschreibt **Bewegung**, nicht das Motiv: Kamerafahrt, Tempo, was sich
   im Bild verändert.
+- **`seed`** wiederholt ein Ergebnis bei gleichem Prompt, **`negativePrompt`** hält
+  Störendes draußen. Beides nicht im Lite-Modell.
+- **Kameraführung gehört in den Prompt**, es gibt keine Einstellung dafür: „slow dolly
+  in", „static wide shot", „handheld".
+- **Nicht möglich über diese API**, auch wenn die Felder im Schema stehen: Videos
+  verlängern, Übergang zwischen Start- und Endbild, Referenzbilder fürs Video. Echte
+  Läufe scheitern mit „Your use case is currently not supported". Nicht versuchen und
+  nicht versprechen.
 - **Ich sehe das Video nicht.** Anders als bei Bildern kommt nur der Pfad zurück.
   Also sagen, wo es liegt, und um Sichtung bitten — nicht so tun, als hätte ich es
   beurteilt.
